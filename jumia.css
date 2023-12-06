@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstnav{
+justify-content: space-between;
+align-items: center;
+/* padding: 0px 15px 0px; */
+display: flex;
+background-color:rgb(237, 248, 242);
+}
+.food{
+    display: flex;
+    align-items: center ;
+}
+.pay{
+display: flex;
+align-items: center;
+
+}
+.force{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px;
+}
+.sell{
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+    padding: 0px 15px 0px;
+    margin-left: 2rem;
+}
+.secondnav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px;
+    text-indent: 20px;
+}
+.search input{
+    height: 4vh;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+}
+.secondnav button{
+    width: 80px;
+    height: 35px;
+    border-radius: 0.5rem;
+    border: 2px solid #ccc;
+    background-color: orangered;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+}
+.mild{
+    display: flex;
+    align-items: center;
+}
+
